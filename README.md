@@ -1,7 +1,7 @@
 # PROJECT-GITOPS
 
 ### A Cloud Nativist Bootcamp Project
-Project & Course Author _Loveth Oballe Ayuknteck_
+Project & Course Author -- _Loveth Oballe Ayuknteck_
 
 ## Project Overview
 In addition to implementing the GitOps concept, this project will also highlight CI/CD and Infrastructure as Code (IaC) technologies.
