@@ -21,8 +21,6 @@ This project will implement GitOps as a concept and also highlight other technol
 
 ### =========================================================== ###
 ##  AWS (Amazon Web Services)
-###### Cloud Provider
-###### (Root account not recommended for use. Please create an 'IAM User' with proper permissions)
 
 - Amazon Web Services is a comprehensive, evolving cloud computing platform provided by Amazon that includes a mixture of infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and software-as-a-service (SaaS) offerings.
 
@@ -143,4 +141,5 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 ### =========================================================== ###
 
-README.md & Wiki By `Shawn W. Feltmate`
+###### README.md & Wiki By `Shawn W. Feltmate`
+###### 
