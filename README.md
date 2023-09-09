@@ -26,7 +26,7 @@ This project will implement GitOps as a concept and also highlight other technol
 09   Kubernetes Operations (kOps)
 10   Terraform
 
-### ============================================================================= ###
+### ======================================================================== ###
 ##  AWS (Amazon Web Services)   <--- Cloud Provider
 ## (Root account not recommended for use. Please create an 'IAM User' with proper permissions)
 
