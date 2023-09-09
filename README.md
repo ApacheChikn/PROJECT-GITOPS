@@ -1,34 +1,28 @@
 # PROJECT-GITOPS
-Create AWS Project-01 (GitOps) with Cloud Nativist.
 
-# Cloud Nativist Bootcamp Project - GitOps
-*README.md By [Shawn W. Feltmate] - Project/Course Author Loveth Oballe Ayuknteck*
-
-
-{ -- LEARN MORE AND CULTIVATE THE CONDITIONS NECESSARY FOR PEOPLE TO FLOURISH. -- }
-
-
-## This repo is used to follow along in Cloud Nativist DevOps bootcamp.
+### A Cloud Nativist Bootcamp Project
+Project & Course Author _Loveth Oballe Ayuknteck_
 
 ## Project Overview
-This project will implement GitOps as a concept and also highlight other technology as CI/CD, and infrastructure as code (IaC).
+This project will implement GitOps as a concept and also highlight other technology as CI/CD, and Infrastructure as Code (IaC).
 
+| | TOOLS NEEDED |
+--- | ---
+| 01 | [AWS (Amazon Web Services)](#aws-amazon-web-services) |
+| 02 | [ArgoCD](#argocd) |
+| 03 | [Docker](#docker) |
+| 04 | [Git](#git) |
+| 05 | [GitHub](#github) |
+| 06 | [GitHub Actions](#github-actions) |
+| 07 | [GitOps](#gitops) |
+| 08 | [Helm](#helm) |
+| 09 | [Kubernetes Operations (kOps)](#kubernetes-operations-kops) |
+| 10 | [Terraform](#terraform) |
 
-*** TOOLS YOU WILL NEED: ***
-01   AWS (Amazon Web Services)   <--- Cloud Provider
-02   ArgoCD
-03   Docker
-04   Git
-05   GitHub
-06   GitHub Actions
-07   GitOps
-08   Helm
-09   Kubernetes Operations (kOps)
-10   Terraform
-
-### ======================================================================== ###
-##  AWS (Amazon Web Services)   <--- Cloud Provider
-## (Root account not recommended for use. Please create an 'IAM User' with proper permissions)
+### ================================================================ ###
+##  AWS (Amazon Web Services)
+###### Cloud Provider
+###### (Root account not recommended for use. Please create an 'IAM User' with proper permissions)
 
 - Amazon Web Services is a comprehensive, evolving cloud computing platform provided by Amazon that includes a mixture of infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and software-as-a-service (SaaS) offerings.
 
@@ -39,7 +33,7 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - AWS can be used to store critical data.
 
-### ============================================================================= ###
+### ================================================================ ###
 ##  ArgoCD
 
 - ArgoCD is a tool that automates the deployment of applications to Kubernetes clusters. It uses the GitOps model to compare the state of a repository to the state of live workloads.
@@ -58,14 +52,14 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - ArgoCD overrides any manual updates, ensuring that the Git repository is the "single source of truth".
 
-### ============================================================================= ###
+### ================================================================ ###
 ##  Docker
 
 - Docker is a set of platform-as-a-service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. The software that hosts the containers is called Docker Engine.
 
 - Docker is a platform that allows developers to package and run applications in a consistent manner across different environments.
 
-### ============================================================================= ###
+### ================================================================ ###
 ##  Git
 
 - Git is a distributed version control system (DVCS) for managing changes in computer files and facilitating collaboration. It is primarily used for software development, but it can be used to track changes to any set of files.
@@ -78,7 +72,7 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - Git is a powerful tool that can be used to manage changes to any set of files. It is particularly well-suited for software development, but it can also be used for other purposes, such as managing documentation or tracking changes to a website.
 
-### ============================================================================= ###
+### ================================================================ ###
 ##  GitHub
 
 - GitHub is a cloud-based platform that allows developers to store, track, and collaborate on software projects. It uses Git, an open-source version control software, to allow multiple people to make changes to code at the same time.
@@ -87,18 +81,19 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - GitHub's interface is user-friendly enough so that even novice coders can take advantage of Git. It allows people to work on projects together from any location.
 
-### ============================================================================= ###
+### ================================================================ ###
 ##  GitHub Actions
 
 - GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that automates software development workflows. You can use GitHub Actions to build, test, validate, and deploy your codebase. You can set up workflows in your GitHub repository.
 
-   You can create workflows that: 
-      - Build and test every pull request to your repository
-      - Deploy merged pull requests to production
+1. You can create workflows that:
+   - Build and test every pull request to your repository
+     - Deploy merged pull requests to production
+
 
 - GitHub Actions also supports third-party CI/CD tools, the container platform Docker, and other automation platforms. 
 
-### ============================================================================= ###
+### ================================================================ ###
 ##  GitOps
 
 - GitOps is a framework that uses Git as the "single source of truth" for managing software applications and infrastructure.
@@ -109,7 +104,7 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - GitOps makes modern software pipelines and infrastructure, such as cloud-native and hybrid cloud environments, far more manageable.
 
-### ============================================================================= ###
+### ================================================================ ###
 ##  Helm
 
 - Helm is a package manager for Kubernetes applications. It automates the creation, packaging, configuration, and deployment of applications and services to Kubernetes clusters.
@@ -124,7 +119,7 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - Helm tracks an installed chart in the Kubernetes cluster using releases. This allows you to install a single chart multiple times with different releases in a cluster.
 
-### ============================================================================= ###
+### ================================================================ ###
 ##  Kubernetes Operations (kOps)
 
 - kOps, or Kubernetes Operations, is a free and open-source command-line tool for managing Kubernetes clusters. It can create, destroy, upgrade, and maintain production-grade clusters. It can also provision cloud infrastructure. kOps is considered the best tool for deploying Kubernetes clusters to Amazon Web Services (AWS).
@@ -135,7 +130,7 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - kOps controls the entire life cycle of clusters, from creation to scaling to deletion.
 
-### ============================================================================= ###
+### ================================================================ ###
 ##  Terraform
 
 - Terraform is an open-source tool that allows users to build, change, and version infrastructure. It is primarily used by DevOps teams to automate infrastructure tasks, such as provisioning cloud resources.
@@ -146,20 +141,6 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - Terraform is a highly specialized tool for provisioning and deprovisioning cloud infrastructure. It can automate and manage Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), or even Software-as-a-Service (SaaS) level capabilities. 
 
-### ============================================================================= ###
+### ================================================================ ###
 
-## .----------------.  .----------------.  .----------------.  .----------------.  .-----------------.
-  | .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
-  | |    _______   | || |  ____  ____  | || |      __      | || | _____  _____ | || | ____  _____  | |
-  | |   /  ___  |  | || | |_   ||   _| | || |     /  \     | || ||_   _||_   _|| || ||_   \|_   _| | |
-  | |  |  (__ \_|  | || |   | |__| |   | || |    / /\ \    | || |  | | /\ | |  | || |  |   \ | |   | |
-  | |   '.___`-.   | || |   |  __  |   | || |   / ____ \   | || |  | |/  \| |  | || |  | |\ \| |   | |
-  | |  |`\____) |  | || |  _| |  | |_  | || | _/ /    \ \_ | || |  |   /\   |  | || | _| |_\   |_  | |
-  | |  |_______.'  | || | |____||____| | || ||____|  |____|| || |  |__/  \__|  | || ||_____|\____| | |
-  | |              | || |              | || |              | || |              | || |              | |
-  | '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
-## '----------------'  '----------------'  '----------------'  '----------------'  '----------------' ##
-
-### ============================================================================= ###
-
-
+README.md & Wiki By `Shawn W. Feltmate`
