@@ -19,7 +19,7 @@ This project will implement GitOps as a concept and also highlight other technol
 | 09 | [Kubernetes Operations (kOps)](#kubernetes-operations-kops) |
 | 10 | [Terraform](#terraform) |
 
-### ================================================================ ###
+### =========================================================== ###
 ##  AWS (Amazon Web Services)
 ###### Cloud Provider
 ###### (Root account not recommended for use. Please create an 'IAM User' with proper permissions)
@@ -33,7 +33,7 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - AWS can be used to store critical data.
 
-### ================================================================ ###
+### =========================================================== ###
 ##  ArgoCD
 
 - ArgoCD is a tool that automates the deployment of applications to Kubernetes clusters. It uses the GitOps model to compare the state of a repository to the state of live workloads.
@@ -52,14 +52,14 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - ArgoCD overrides any manual updates, ensuring that the Git repository is the "single source of truth".
 
-### ================================================================ ###
+### =========================================================== ###
 ##  Docker
 
 - Docker is a set of platform-as-a-service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. The software that hosts the containers is called Docker Engine.
 
 - Docker is a platform that allows developers to package and run applications in a consistent manner across different environments.
 
-### ================================================================ ###
+### =========================================================== ###
 ##  Git
 
 - Git is a distributed version control system (DVCS) for managing changes in computer files and facilitating collaboration. It is primarily used for software development, but it can be used to track changes to any set of files.
@@ -72,7 +72,7 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - Git is a powerful tool that can be used to manage changes to any set of files. It is particularly well-suited for software development, but it can also be used for other purposes, such as managing documentation or tracking changes to a website.
 
-### ================================================================ ###
+### =========================================================== ###
 ##  GitHub
 
 - GitHub is a cloud-based platform that allows developers to store, track, and collaborate on software projects. It uses Git, an open-source version control software, to allow multiple people to make changes to code at the same time.
@@ -81,7 +81,7 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - GitHub's interface is user-friendly enough so that even novice coders can take advantage of Git. It allows people to work on projects together from any location.
 
-### ================================================================ ###
+### =========================================================== ###
 ##  GitHub Actions
 
 - GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that automates software development workflows. You can use GitHub Actions to build, test, validate, and deploy your codebase. You can set up workflows in your GitHub repository.
@@ -93,7 +93,7 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - GitHub Actions also supports third-party CI/CD tools, the container platform Docker, and other automation platforms. 
 
-### ================================================================ ###
+### =========================================================== ###
 ##  GitOps
 
 - GitOps is a framework that uses Git as the "single source of truth" for managing software applications and infrastructure.
@@ -104,7 +104,7 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - GitOps makes modern software pipelines and infrastructure, such as cloud-native and hybrid cloud environments, far more manageable.
 
-### ================================================================ ###
+### =========================================================== ###
 ##  Helm
 
 - Helm is a package manager for Kubernetes applications. It automates the creation, packaging, configuration, and deployment of applications and services to Kubernetes clusters.
@@ -119,7 +119,7 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - Helm tracks an installed chart in the Kubernetes cluster using releases. This allows you to install a single chart multiple times with different releases in a cluster.
 
-### ================================================================ ###
+### =========================================================== ###
 ##  Kubernetes Operations (kOps)
 
 - kOps, or Kubernetes Operations, is a free and open-source command-line tool for managing Kubernetes clusters. It can create, destroy, upgrade, and maintain production-grade clusters. It can also provision cloud infrastructure. kOps is considered the best tool for deploying Kubernetes clusters to Amazon Web Services (AWS).
@@ -130,7 +130,7 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - kOps controls the entire life cycle of clusters, from creation to scaling to deletion.
 
-### ================================================================ ###
+### =========================================================== ###
 ##  Terraform
 
 - Terraform is an open-source tool that allows users to build, change, and version infrastructure. It is primarily used by DevOps teams to automate infrastructure tasks, such as provisioning cloud resources.
@@ -141,6 +141,6 @@ Compute (EC2), Storage (S3), Databases, Analytics, Networking, Mobile, Developer
 
 - Terraform is a highly specialized tool for provisioning and deprovisioning cloud infrastructure. It can automate and manage Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), or even Software-as-a-Service (SaaS) level capabilities. 
 
-### ================================================================ ###
+### =========================================================== ###
 
 README.md & Wiki By `Shawn W. Feltmate`
