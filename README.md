@@ -4,7 +4,7 @@
 Project & Course Author _Loveth Oballe Ayuknteck_
 
 ## Project Overview
-This project will implement GitOps as a concept and also highlight other technology as CI/CD, and Infrastructure as Code (IaC).
+In addition to implementing the GitOps concept, this project will also highlight CI/CD and Infrastructure as Code (IaC) technologies.
 
 | | TOOLS NEEDED |
 --- | ---
